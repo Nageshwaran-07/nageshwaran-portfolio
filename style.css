@@ -1174,6 +1174,7 @@ p:not(.eyebrow):not(.image-caption) {
         font-size: 20px;
     }
 }
+
 /* BRAND LOGO + VIDEO LAYOUT */
 .project-media-layout {
     display: grid;
@@ -1182,14 +1183,35 @@ p:not(.eyebrow):not(.image-caption) {
     align-items: stretch;
 }
 
+
 .brand-logo {
+    width: 125px;
+    height: 125px;
     background: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 18px;
+    border-radius: 50%;
     overflow: hidden;
+    margin: auto;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    
+box-shadow:
+    0 0 18px rgba(255, 125, 35, 0.40),
+    0 0 35px rgba(255, 125, 35, 0.25),
+    0 0 55px rgba(255, 125, 35, 0.12);
+
+    transition: 0.3s ease;
+}
+
+.brand-logo:hover {
+    box-shadow:
+        0 0 16px rgba(255, 140, 50, 0.28),
+        0 0 32px rgba(255, 140, 50, 0.14);
+
+    transform: scale(1.04);
 }
 
 .brand-logo img {
@@ -1212,7 +1234,9 @@ p:not(.eyebrow):not(.image-caption) {
     }
 
     .brand-logo {
-        padding: 8px;
+        width: 85px;
+        height: 85px;
+        padding: 12px;
     }
 
     .project-media-layout .project-image {
