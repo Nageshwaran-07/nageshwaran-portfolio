@@ -1239,3 +1239,42 @@ box-shadow:
     }
 }
 
+/* BRAND LOGO + HEADING */
+.project-brand-heading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.project-brand-heading .brand-logo {
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.project-brand-heading h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* VIDEO FULL WIDTH */
+.project-card > .video-project {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .project-brand-heading {
+        gap: 15px;
+    }
+
+    .project-brand-heading h3 {
+        font-size: 17px;
+    }
+}
+
