@@ -1314,3 +1314,24 @@ box-shadow:
     width: 100%;
     max-width: 100%;
 }
+/* SOFTWARE PROFICIENCY LEVELS */
+
+.software-card:nth-child(1) .software-progress {
+    width: 99%;
+}
+
+.software-card:nth-child(2) .software-progress {
+    width: 90%;
+}
+
+.software-card:nth-child(3) .software-progress {
+    width: 88%;
+}
+
+.software-card:nth-child(4) .software-progress {
+    width: 99%;
+}
+
+.software-card:nth-child(5) .software-progress {
+    width: 89%;
+}
